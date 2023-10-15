@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    min-height: 100% !important;
+    min-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container {
+    height: 100%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    height: 39%;
+}
+.result span {
+    margin-right: 50px;
+    font-size: 200px;
+    justify-content: flex-end;
+}
+.buttons {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 210px;
+    width: 210px;
+    font-size: 100px;
+    color: white;
+    border-radius: 850%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    align-self: center;
+    justify-self: center;
+}
+.persent {
+    color: black;
+    background-color: #A5A5A5;
+    border: none;
+}
+.clear, .NP{
+    color: black;
+    background-color: #A5A5A5;
+    border: none;
+}
+.trans,.equals{
+    color: white;
+    background-color: #ff9f0a;
+    border: none;
+}
+.numbers,.point,.Zeronumbers{
+    color: white;
+    background-color: #343434;
+    border: none;
+
+}
+.Zeronumbers{
+    width: 750px;
+    border-radius: 100px;
+    grid-column: span 2;
+}
+input {
+    display: block;
+    text-align: end;
+    margin-right: 220px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 200px;
+    width: 100%;
+}
+.numbers:hover{
+    background-color: #7a7373;
+}
+.Zeronumbers:hover{
+    background-color: #7a7373;
+}
+.equals:hover{
+    background-color: #7a7373;
+}
+.clear:hover{
+    background-color: #fbf3f3;
+}
+.NP:hover{
+    background-color: #fbf3f3;
+}
+.persent:hover{
+    background-color: #fbf3f3;
+}
+.trans:hover{
+    background-color: #6c4711;
+}
+
